@@ -1,0 +1,21 @@
+{
+  "name": "xor-encrypt",
+  "version": "1.0.1",
+  "description": "Encrypt a string in xor encoding",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p . && node .",
+    "test": "node test/test.js"
+  },
+  "author": "Aneks",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.3.1",
+    "@typescript-eslint/eslint-plugin": "^5.60.0",
+    "@typescript-eslint/parser": "^5.60.0",
+    "eslint": "^8.43.0"
+  },
+  "keywords": [
+    "encryptor", "xor"
+  ]
+}
