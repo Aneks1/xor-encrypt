@@ -1,6 +1,6 @@
 {
   "name": "xor-encrypt",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Encrypt a string in xor encoding",
   "main": "dist/index.js",
   "scripts": {
@@ -17,5 +17,6 @@
   },
   "keywords": [
     "encryptor", "xor"
-  ]
+  ],
+  "types": "types/index.d.ts"
 }
